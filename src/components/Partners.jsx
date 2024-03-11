@@ -13,7 +13,7 @@ const Partners = () => {
   return (
     <div className='w-full bg-white py-5 my-10'>
         <h1 className='text-center text-[27px] text-[#3a1078] font-[poppins] font-bold'>Our Clients ...</h1>
-            <Marquee className='flex gap-5 md:mt-10 mt-5 z-1'>
+            <Marquee className='flex gap-5 md:mt-10 mt-5'>
                 <div className='flex gap-5'>
                     {
                         cards.map((ele,i) => {

@@ -7,7 +7,7 @@ const Navbar = () => {
         {name:'Contact',link:'/contact'}  
     ];
   return (
-    <header className='w-full bg-[#edf3ff] sticky top-0 left-0 shadow-md px-5 py-4 z-1000000 '>
+    <header className='w-full bg-[#edf3ff] sticky top-0 left-0 shadow-md px-5 py-4 z-50'>
         <nav className='flex justify-between items-center flex-wrap'>
             <div>
                 <h1 className='text-[32px] font-bold font-[poppins]'>Web Logic Labs.</h1>
