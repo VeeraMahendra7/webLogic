@@ -4,7 +4,7 @@ import C2 from '/u2.jpg'
 
 const Client = () => {
   return (
-    <div className='bg-white w-full flex justify-center items-center mt-20'>
+    <div className='bg-white w-full flex justify-center items-center md:mt-32'>
         <div className='w-[95%] bg-[#fee7ed] rounded-xl flex md:py-10 '>
             <div className='md:w-2/5 w-full md:p-[45px] p-8'>
                 <p className='text-[#BA5C2E] font-bold'>Client Reviews</p>
