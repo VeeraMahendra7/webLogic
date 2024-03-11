@@ -17,7 +17,7 @@ const Client = () => {
 
             <div className='w-3/5 relative md:block hidden'>
 
-                <div className='flex bg-white w-[60%] p-4 rounded-[14px] absolute top-[-25%] right-[10%] shadow-md z-1'>
+                <div className='flex bg-white w-[60%] p-3 rounded-[14px] absolute top-[-25%] right-[10%] shadow-md z-1'>
                   <div className='w-1/3'>
                       <img src={C1} alt="client" className='h-[80px] w-[80px] rounded-[14px]' />
                   </div>
