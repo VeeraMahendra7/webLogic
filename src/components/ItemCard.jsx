@@ -9,9 +9,9 @@ const ItemCard = ({data}) => {
         {
            countOn && 
            <div className='solid border h-[160px] w-[200px] bg-white  flex gap-y-4 flex-col justify-center items-center shadow-xl rounded-lg hover:scale-105 cursor-pointer'>
-              <div className='flex justify-center items-center relative -z-10'>
+              <div className='flex justify-center items-center relative z-1'>
                 <CountUp start={0} end={data.cnt} duration={5} delay={0} className='text-[45px] text-black font-[poppins] font-bold'/>
-                <span className='text-2xl text-[grey] absolute top-0  left-11'>+</span>
+                <span className='text-2xl text-[grey] absolute top-0  left-11 '>+</span>
               </div>
              
               <h1 className='text-[19px] text-[grey] font-[poppins] font-semibold'>{data.name}</h1>

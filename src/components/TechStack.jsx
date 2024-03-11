@@ -20,12 +20,12 @@ const TechStack = () => {
         }
     ]
   return (
-    <div className='w-full bg-white pt-10'>
+    <div className='w-full bg-white md:pt-10 pt-2'>
       <div className='flex flex-col justify-center items-center'>
             <p className='text-[#BA5C2E] font-bold'>Our Services</p>
             <h1 className='text-[27px] text-[#3a1078] text-center font-[poppins] font-bold'>Demand First-Rate Best Services</h1>
       </div>
-      <div className='w-full flex justify-center flex-wrap items-center gap-5 '>
+      <div className='w-full flex justify-center flex-wrap items-center gap-x-10 gap-y-5 mt-5'>
             {
                 tech.map((item,ind) => {
                     return <div >

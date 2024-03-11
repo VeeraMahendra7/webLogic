@@ -24,7 +24,7 @@ const Speciality = () => {
   return (
     <div className='w-full bg-[#edf3ff] md:my-10 my-5 md:py-20 py-5'>
         <h1 className='text-[27px] text-[#3a1078] font-[poppins] font-semibold text-center md:mb-10 my-5'>What We have ...</h1>
-        <div className='w-full flex gap-8 flex-wrap items-center justify-center '>
+        <div className='w-full flex gap-8 flex-wrap items-center justify-center'>
             {
                 items.map((item,ind) => (
                     <ItemCard data={item} key={ind} />

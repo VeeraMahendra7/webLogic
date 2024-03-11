@@ -3,13 +3,13 @@ import home from '../../public/Edited.png'
 
 const Home = () => {
   return (
-    <div className='w-full bg-white p-5'>
-        <div className='flex flex-wrap md:p-5 m-5'>
+    <div className='w-full bg-white p-5 '>
+        <div className='flex flex-wrap md:p-5  m-5'>
             <div className='md:w-1/2 w-full md:mt-10 md:px-5'>
                 <p className='text-[#BA5C2E] font-bold mb-5'>Work better with us</p>
                 <span className='text-[20px] text-[#3a1078] font-semibold font-serif'>Welcome to ...</span>
                 <h1 className='text-[60px] font-bold font-[poppins]'>WEB LOGIC LABS</h1>
-                <p className='md:mt-5  text-[15px] font-serif font-medium tracking-wide'> We're your partners in navigating the dynamic landscape of online presence. With a fusion of
+                <p className='md:mt-5  text-[15px] font-serif font-medium tracking-wide text-justify'> We're your partners in navigating the dynamic landscape of online presence. With a fusion of
                     creativity, technology, and innovation, we specialize in website design, digital marketing,
                     and cutting-edge Artificial Intelligence and Machine Learning solutions.
                 </p>

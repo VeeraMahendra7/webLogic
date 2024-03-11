@@ -1,5 +1,5 @@
 import React from 'react'
-import about from '../../public/About.jpg'
+import about from '/About.jpg'
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
             <div className='md:w-1/2 w-full p-2 '>
                 <p className='text-[#BA5C2E] font-bold'>About us</p>
                 <h1 className='text-[27px] text-[#3a1078] font-bold'>We Don't Just Build Websites; <br />We Build Relationships.</h1>
-                <p className='font-[poppins] mt-7 font-medium'>Driven by passion and fueled by innovation, Web Logic Labs was founded with a vision to revolutionize
+                <p className='font-[poppins] mt-7 font-medium text-justify'>Driven by passion and fueled by innovation, Web Logic Labs was founded with a vision to revolutionize
                     the digital space. Our team comprises seasoned professionals with diverse backgrounds in web development,
                     marketing, and AI technologies. We believe in staying ahead of the curve, constantly exploring emerging trends
                     and technologies to deliver exceptional results for our clients.
