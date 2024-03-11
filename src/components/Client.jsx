@@ -23,7 +23,7 @@ const Client = () => {
                   </div>
                   <div className='px-2'>
                     <h1 className='text-xl font-bold text-[#3a1078] font-[poppins]'>Devi</h1>
-                    <p className='font-[poppins] text-[14px] mt-2'>Their attention to detail and strategic approach helped us achieve remarkable growth in a short period of time.</p>
+                    <p className='font-[poppins] text-[14px] mt-1'>Their attention to detail and strategic approach helped us achieve remarkable growth in a short period of time.</p>
                   </div>
                 </div>
 
@@ -33,7 +33,7 @@ const Client = () => {
                   </div>
                   <div className='px-2'>
                     <h1 className='text-xl font-bold text-[#3a1078] font-[poppins]'>Shyam</h1>
-                    <p className='font-[poppins] text-[14px] mt-2'>Their attention to detail and strategic approach helped us achieve remarkable growth in a short period of time.</p>
+                    <p className='font-[poppins] text-[14px] mt-1'>Their attention to detail and strategic approach helped us achieve remarkable growth in a short period of time.</p>
                   </div>
                 </div>
             </div>
